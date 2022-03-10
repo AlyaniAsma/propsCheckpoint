@@ -1,0 +1,48 @@
+img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  pointer-events: none;
+  }
+.App {
+  text-align: center;
+  background-color: #fd81b1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.name{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 80px;
+}
+.text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 50;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  background-color: #eeeeee;
+
+}
+
+button {
+  display: inline-block;
+  background-color: #cf0563;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
